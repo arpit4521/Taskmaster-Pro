@@ -1,6 +1,6 @@
 # Taskmaster-Pro Web App
 
-Taskmaster-Pro is a comprehensive task management web application designed to enhance productivity and streamline project management. It features role-based access control with three user roles: Owner, Admin, and Employee. Each role has specific permissions, enabling efficient delegation and tracking of tasks.
+Taskmaster-Pro is a robust and comprehensive task management web application meticulously designed to enhance productivity and streamline project management processes. This application incorporates advanced role-based access control, segmenting users into three distinct roles: Owner, Admin, and Employee. Each of these roles is equipped with specific permissions tailored to their responsibilities, ensuring a seamless and efficient delegation of tasks and precise tracking of progress. Owners have the most extensive access, enabling them to create and manage projects, add and assign members, and oversee all tasks. Admins are empowered to assign tasks to members, update task details, and monitor team performance, ensuring alignment with project goals. Employees, on the other hand, focus on executing assigned tasks, updating their status, and attaching relevant documents, providing real-time progress updates. With its structured role-based system, Taskmaster-Pro ensures that every team member operates within their defined scope, fostering a collaborative environment that drives productivity and keeps projects on track.
 
 ## Features
 
@@ -10,17 +10,18 @@ Taskmaster-Pro is a comprehensive task management web application designed to en
     - Add Members
     - Assign Tasks to Members
     - Update Tasks
-    - Perform all Admin functions
+    - Have all Admin powers
   - **Admin**
     - Assign Tasks to Members
     - Update Tasks
+    - Have all Employee powers
   - **Employee**
     - Update Task Status (In Progress, Completed, Closed)
 
 - **Task Management**
   - Assign tasks to team members
   - Update task status
-  - Attach files to tasks
+  - Attach relevant images to tasks for better understanding
   - View task details and history
 
 - **Project Management**
@@ -56,6 +57,9 @@ Taskmaster-Pro is a comprehensive task management web application designed to en
     ```env
     MONGO_URI=your_mongodb_uri
     SECRET_KEY=your_secret_key
+    CLOUDINARY_API_KEY=your_cloud_api
+    CLOUDINARY_CLOUD_NAME=your_cloud_name
+    CLOUDINARY_API_SECRET=your_cloud_secret
     ```
 
 4. Start the application:
@@ -76,10 +80,10 @@ You can use the following sample login credentials to access the application:
    Use the sample credentials or create a new account to login.
 
 2. **Dashboard:**
-   After logging in, you will be redirected to the dashboard, where you can see an overview of your tasks and projects.
+   After logging in, you will be redirected to the dashboard, where you can see an overview of your tasks,role and projects.
 
 3. **Task Management:**
-   - **Employees** can update task statuses by clicking on a task and selecting the new status.
+   - **Employees** can update task statuses by clicking on a task and selecting the In progress / completed/ closed status.
    - **Admins** can assign tasks to members and update task details.
    - **Owners** have full control over tasks, including assigning and updating tasks.
 
@@ -88,17 +92,6 @@ You can use the following sample login credentials to access the application:
 
 5. **Notifications:**
    - Receive real-time notifications for task updates and assignments.
-
-### Screenshots
-
-![Dashboard](screenshots/dashboard.png)
-*Dashboard showing an overview of tasks and projects.*
-
-![Task Management](screenshots/task_management.png)
-*Task management interface for updating and assigning tasks.*
-
-![Project Management](screenshots/project_management.png)
-*Project management interface for creating and managing projects.*
 
 ## Contributing
 
