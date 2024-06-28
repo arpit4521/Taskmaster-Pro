@@ -1,4 +1,12 @@
-# Live Project - https://taskmaster-pro-mxrh.onrender.com
+## Live Project - https://taskmaster-pro-mxrh.onrender.com
+
+### Sample Login
+
+You can use the following sample login credentials to access the application:
+
+- **Email:** - arpit123@gmail.com
+- **Password:** - arpit123
+
 # Taskmaster-Pro Web App
 
 Taskmaster-Pro is a robust and comprehensive task management web application meticulously designed to enhance productivity and streamline project management processes. This application incorporates advanced role-based access control, segmenting users into three distinct roles: Owner, Admin, and Employee. Each of these roles is equipped with specific permissions tailored to their responsibilities, ensuring a seamless and efficient delegation of tasks and precise tracking of progress. Owners have the most extensive access, enabling them to create and manage projects, add and assign members, and oversee all tasks. Admins are empowered to assign tasks to members, update task details, and monitor team performance, ensuring alignment with project goals. Employees, on the other hand, focus on executing assigned tasks, updating their status, and attaching relevant documents, providing real-time progress updates. With its structured role-based system, Taskmaster-Pro ensures that every team member operates within their defined scope, fostering a collaborative environment that drives productivity and keeps projects on track.
@@ -92,13 +100,6 @@ Taskmaster-Pro's versatility and robust feature set make it an indispensable too
     ```bash
     npm start
     ```
-
-### Sample Login
-
-You can use the following sample login credentials to access the application:
-
-- **Email:** arpit123@gmail.com
-- **Password:** arpit123
 
 ### Usage
 
