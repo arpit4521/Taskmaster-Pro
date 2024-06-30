@@ -1,7 +1,7 @@
 ## Live Project - https://taskmaster-pro-mxrh.onrender.com
 (Kindly wait some time for getting the project to load)
 
-### Sample Login
+### Sample Login Credentials
 
 You can use the following sample login credentials to access the application:
 
